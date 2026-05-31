@@ -1,0 +1,41 @@
+name: Update Fuji Classic slots
+
+# Runs the robot on a schedule, refreshes data.js, and commits it.
+# The static site (GitHub Pages / Netlify / Vercel) redeploys on each commit.
+on:
+  schedule:
+    - cron: "0 * * * *"        # every hour (UTC)
+    - cron: "15,45 5-8 * * *"  # extra every 30 min around the 16:00 JST deadline (UTC 5-8 = JST 14-17)
+  workflow_dispatch:           # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-slots
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch latest slots from ValueGolf
+        run: python3 fetch_slots.py
+
+      - name: Commit if data changed
+        run: |
+          git config user.name  "fuji-classic-bot"
+          git config user.email "bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data.js data.json)" ]; then
+            git add data.js data.json
+            git commit -m "chore: refresh slots ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          else
+            echo "No change in availability."
+          fi

@@ -1,0 +1,5 @@
+.playwright-mcp/
+*.jpeg
+_vg_*.html
+plan_cache.json
+.DS_Store
