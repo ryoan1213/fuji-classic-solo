@@ -18,12 +18,10 @@
        font-family:"Inter",-apple-system,Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
   .serif{font-family:"Cormorant Garamond",Georgia,serif}
 
-  /* header */
   .topbar{position:sticky;top:0;z-index:10;background:var(--header);
           display:flex;justify-content:center;align-items:center;height:54px}
   .topbar img{height:17px;filter:brightness(0) invert(1)}
 
-  /* hero */
   .hero{position:relative;height:330px;overflow:hidden;background:#2c3526}
   .hero img{width:100%;height:100%;object-fit:cover;display:block}
   .hero .ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.12) 0%,rgba(0,0,0,.05) 40%,rgba(0,0,0,.62) 100%)}
@@ -115,6 +113,7 @@
     <footer>Fuji Classic · one-person reservations</footer>
   </div>
 
+<!-- local fallback only; the live site fetches fresh data below -->
 <script src="data.js"></script>
 <script>
 (function(){
@@ -123,19 +122,10 @@
   var WDAY={Sun:"Sunday",Mon:"Monday",Tue:"Tuesday",Wed:"Wednesday",
             Thu:"Thursday",Fri:"Friday",Sat:"Saturday"};
   var CONTACT="ryo@preservegolfjapan.com";
-
-  var data=(window.FC_SLOTS||{slots:[]});
   var list=document.getElementById("list");
-  document.getElementById("updated").textContent=
-      data.generatedAt ? ("Availability updated "+data.generatedAt) : "";
-
-  var all=data.slots||[];
-  var slots=all.filter(function(s){return s.overseasPrice;});
-  var excluded=all.length-slots.length;
-  if(!slots.length){
-    list.innerHTML='<div class="empty">No open tee times at the moment. Please check back later.</div>';
-    return;
-  }
+  var tabsEl=document.getElementById("tabs");
+  var updatedEl=document.getElementById("updated");
+  var activeMonth=null;
 
   function yen(n){return "¥"+(n||0).toLocaleString();}
   function fmtDay(iso,wd){
@@ -177,38 +167,64 @@
     return c;
   }
 
-  var byMonth={};
-  slots.forEach(function(s){ (byMonth[s.date.slice(0,7)]=byMonth[s.date.slice(0,7)]||[]).push(s); });
-  var months=Object.keys(byMonth).sort();
-  var tabs=document.getElementById("tabs");
+  function render(data){
+    data=data||{slots:[]};
+    list.innerHTML=""; tabsEl.innerHTML="";
+    updatedEl.textContent=data.generatedAt ? ("Availability updated "+data.generatedAt+" (auto-refreshes)") : "";
 
-  months.forEach(function(mk,idx){
-    var tab=document.createElement("div");
-    tab.className="tab"+(idx===0?" active":"");
-    tab.innerHTML=MONTHS[(+mk.slice(5,7))-1]+'<span class="mc">'+byMonth[mk].length+" slots</span>";
-    tab.onclick=function(){
-      months.forEach(function(k){document.getElementById("m_"+k).style.display=(k===mk?"block":"none");});
-      var t=tabs.querySelectorAll(".tab");for(var i=0;i<t.length;i++)t[i].classList.remove("active");
-      tab.classList.add("active"); window.scrollTo({top:0,behavior:"smooth"});
-    };
-    tabs.appendChild(tab);
+    var all=data.slots||[];
+    var slots=all.filter(function(s){return s.overseasPrice;});
+    var excluded=all.length-slots.length;
+    if(!slots.length){
+      list.innerHTML='<div class="empty">No open tee times at the moment. Please check back later.</div>';
+      return;
+    }
+    var byMonth={};
+    slots.forEach(function(s){ (byMonth[s.date.slice(0,7)]=byMonth[s.date.slice(0,7)]||[]).push(s); });
+    var months=Object.keys(byMonth).sort();
+    if(months.indexOf(activeMonth)<0) activeMonth=months[0];
 
-    var sec=document.createElement("div"); sec.id="m_"+mk; sec.style.display=idx===0?"block":"none";
-    var curDay="";
-    byMonth[mk].forEach(function(s){
-      var dl=fmtDay(s.date,s.weekday);
-      if(dl!==curDay){curDay=dl;
-        var h=document.createElement("h2");h.className="day";h.textContent=dl;sec.appendChild(h);}
-      sec.appendChild(card(s));
+    months.forEach(function(mk){
+      var tab=document.createElement("div");
+      tab.className="tab"+(mk===activeMonth?" active":"");
+      tab.innerHTML=MONTHS[(+mk.slice(5,7))-1]+'<span class="mc">'+byMonth[mk].length+" slots</span>";
+      tab.onclick=function(){
+        activeMonth=mk;
+        months.forEach(function(k){document.getElementById("m_"+k).style.display=(k===mk?"block":"none");});
+        var t=tabsEl.querySelectorAll(".tab");for(var i=0;i<t.length;i++)t[i].classList.remove("active");
+        tab.classList.add("active"); window.scrollTo({top:0,behavior:"smooth"});
+      };
+      tabsEl.appendChild(tab);
+
+      var sec=document.createElement("div"); sec.id="m_"+mk; sec.style.display=mk===activeMonth?"block":"none";
+      var curDay="";
+      byMonth[mk].forEach(function(s){
+        var dl=fmtDay(s.date,s.weekday);
+        if(dl!==curDay){curDay=dl;
+          var h=document.createElement("h2");h.className="day";h.textContent=dl;sec.appendChild(h);}
+        sec.appendChild(card(s));
+      });
+      list.appendChild(sec);
     });
-    list.appendChild(sec);
-  });
 
-  if(excluded>0){
-    var n=document.createElement("footer");
-    n.textContent=excluded+" member-only event slot(s) are not shown (not available to overseas golfers).";
-    list.appendChild(n);
+    if(excluded>0){
+      var n=document.createElement("footer");
+      n.textContent=excluded+" member-only event slot(s) are not shown (not available to overseas golfers).";
+      list.appendChild(n);
+    }
   }
+
+  function load(){
+    // always fetch the freshest data, bypassing browser/CDN cache
+    fetch("data.json?cb="+Date.now(), {cache:"no-store"})
+      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(render)
+      .catch(function(){ if(window.FC_SLOTS) render(window.FC_SLOTS); });
+  }
+
+  load();
+  setInterval(load, 5*60*1000);   // auto-refresh every 5 minutes
+  document.addEventListener("visibilitychange",function(){ if(!document.hidden) load(); });
 })();
 </script>
 </body>
