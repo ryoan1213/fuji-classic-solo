@@ -108,8 +108,9 @@ def main():
             continue
         key_seen.add(k); uniq.append(s)
     slots = uniq
+    jst = datetime.timezone(datetime.timedelta(hours=9))
     payload = {
-        "generatedAt": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "generatedAt": datetime.datetime.now(jst).strftime("%Y-%m-%d %H:%M") + " JST",
         "course": "Fuji Classic",
         "priceNote": "Overseas-golfer rate, lunch included.",
         "slots": slots,
