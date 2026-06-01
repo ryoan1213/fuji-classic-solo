@@ -34,7 +34,7 @@ def get(url):
 def list_oz():
     ts = int(time.time() * 1000)
     params = (f"d={ts}&pid={PID}&rent_cid={RENT_CID}&exh_flg=V&oMbId=&mbDispDays=3"
-              f"&pageRows=500&pageNo=0&openGroupFlg=1&ogmFlg=0&resultYourpriceFlg=0"
+              f"&pageRows=3000&pageNo=0&openGroupFlg=1&ogmFlg=0&resultYourpriceFlg=0"
               f"&startUpType=0&prm2z=5&_={ts}")
     html = get(f"{BASE}/more_result2.cfm?{params}")
     seen, order = set(), []
