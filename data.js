@@ -1,22 +1,8 @@
 window.FC_SLOTS = {
-  "generatedAt": "2026-06-02 06:57 JST",
+  "generatedAt": "2026-06-02 21:32 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
-    {
-      "date": "2026-06-03",
-      "deadline": "06/02 16:00",
-      "io": "IN",
-      "time": "08:35",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 33800,
-      "surcharge2p": 1100,
-      "players": 1,
-      "ours": true,
-      "id": "T136221690",
-      "weekday": "Wed"
-    },
     {
       "date": "2026-06-04",
       "deadline": "06/03 16:00",
@@ -40,24 +26,10 @@ window.FC_SLOTS = {
       "maxSeats": 4,
       "overseasPrice": 33800,
       "surcharge2p": 1100,
-      "players": 1,
+      "players": 2,
       "ours": false,
       "id": "T136222029",
       "weekday": "Fri"
-    },
-    {
-      "date": "2026-06-06",
-      "deadline": "06/05 16:00",
-      "io": "IN",
-      "time": "08:35",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 42000,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T140901486",
-      "weekday": "Sat"
     },
     {
       "date": "2026-06-06",
@@ -166,7 +138,7 @@ window.FC_SLOTS = {
       "maxSeats": 4,
       "overseasPrice": 33800,
       "surcharge2p": 1100,
-      "players": 3,
+      "players": 4,
       "ours": false,
       "id": "T136223597",
       "weekday": "Wed"
@@ -376,7 +348,7 @@ window.FC_SLOTS = {
       "maxSeats": 4,
       "overseasPrice": null,
       "surcharge2p": null,
-      "players": 0,
+      "players": 1,
       "ours": false,
       "id": "T136224747",
       "weekday": "Tue"
@@ -1905,20 +1877,6 @@ window.FC_SLOTS = {
       "players": 0,
       "ours": false,
       "id": "T140378006",
-      "weekday": "Sat"
-    },
-    {
-      "date": "2026-08-22",
-      "deadline": "08/21 16:00",
-      "io": "OUT",
-      "time": "09:05",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 45000,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T140378007",
       "weekday": "Sat"
     },
     {
