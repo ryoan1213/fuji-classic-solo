@@ -1,5 +1,5 @@
 window.FC_SLOTS = {
-  "generatedAt": "2026-06-29 00:00 JST",
+  "generatedAt": "2026-06-29 03:57 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
