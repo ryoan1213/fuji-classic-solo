@@ -1,5 +1,5 @@
 window.FC_SLOTS = {
-  "generatedAt": "2026-07-08 05:00 JST",
+  "generatedAt": "2026-07-08 06:38 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
@@ -105,20 +105,6 @@ window.FC_SLOTS = {
       "date": "2026-07-12",
       "deadline": "07/11 16:00",
       "io": "IN",
-      "time": "08:20",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": null,
-      "surcharge2p": null,
-      "players": 0,
-      "ours": false,
-      "id": "T138094782",
-      "weekday": "Sun"
-    },
-    {
-      "date": "2026-07-12",
-      "deadline": "07/11 16:00",
-      "io": "IN",
       "time": "08:29",
       "minPlayers": 2,
       "maxSeats": 4,
@@ -127,20 +113,6 @@ window.FC_SLOTS = {
       "players": 0,
       "ours": false,
       "id": "T138094783",
-      "weekday": "Sun"
-    },
-    {
-      "date": "2026-07-12",
-      "deadline": "07/11 16:00",
-      "io": "IN",
-      "time": "08:38",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": null,
-      "surcharge2p": null,
-      "players": 0,
-      "ours": false,
-      "id": "T138094784",
       "weekday": "Sun"
     },
     {
@@ -175,20 +147,6 @@ window.FC_SLOTS = {
       "date": "2026-07-12",
       "deadline": "07/11 16:00",
       "io": "IN",
-      "time": "09:05",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": null,
-      "surcharge2p": null,
-      "players": 0,
-      "ours": false,
-      "id": "T138094786",
-      "weekday": "Sun"
-    },
-    {
-      "date": "2026-07-12",
-      "deadline": "07/11 16:00",
-      "io": "IN",
       "time": "09:14",
       "minPlayers": 2,
       "maxSeats": 4,
@@ -197,20 +155,6 @@ window.FC_SLOTS = {
       "players": 0,
       "ours": false,
       "id": "T138094787",
-      "weekday": "Sun"
-    },
-    {
-      "date": "2026-07-12",
-      "deadline": "07/11 16:00",
-      "io": "IN",
-      "time": "09:23",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": null,
-      "surcharge2p": null,
-      "players": 0,
-      "ours": false,
-      "id": "T138094788",
       "weekday": "Sun"
     },
     {
@@ -250,7 +194,7 @@ window.FC_SLOTS = {
       "maxSeats": 4,
       "overseasPrice": null,
       "surcharge2p": null,
-      "players": 1,
+      "players": 0,
       "ours": false,
       "id": "T145831284",
       "weekday": "Tue"
@@ -334,7 +278,7 @@ window.FC_SLOTS = {
       "maxSeats": 4,
       "overseasPrice": 36500,
       "surcharge2p": 1100,
-      "players": 3,
+      "players": 4,
       "ours": false,
       "id": "T138095318",
       "weekday": "Thu"
