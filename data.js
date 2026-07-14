@@ -1,36 +1,8 @@
 window.FC_SLOTS = {
-  "generatedAt": "2026-07-14 14:35 JST",
+  "generatedAt": "2026-07-14 16:22 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
-    {
-      "date": "2026-07-15",
-      "deadline": "07/14 16:00",
-      "io": "OUT",
-      "time": "08:20",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 36500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T138094997",
-      "weekday": "Wed"
-    },
-    {
-      "date": "2026-07-15",
-      "deadline": "07/14 16:00",
-      "io": "IN",
-      "time": "09:14",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 36500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T138095289",
-      "weekday": "Wed"
-    },
     {
       "date": "2026-07-16",
       "deadline": "07/15 16:00",
@@ -548,6 +520,48 @@ window.FC_SLOTS = {
       "ours": false,
       "id": "T140376286",
       "weekday": "Wed"
+    },
+    {
+      "date": "2026-08-06",
+      "deadline": "08/05 13:00",
+      "io": "OUT",
+      "time": "07:48",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": null,
+      "surcharge2p": null,
+      "players": 0,
+      "ours": false,
+      "id": "T147917597",
+      "weekday": "Thu"
+    },
+    {
+      "date": "2026-08-06",
+      "deadline": "08/05 13:00",
+      "io": "OUT",
+      "time": "07:57",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": null,
+      "surcharge2p": null,
+      "players": 0,
+      "ours": false,
+      "id": "T147917598",
+      "weekday": "Thu"
+    },
+    {
+      "date": "2026-08-06",
+      "deadline": "08/05 13:00",
+      "io": "OUT",
+      "time": "08:06",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": null,
+      "surcharge2p": null,
+      "players": 0,
+      "ours": false,
+      "id": "T147917599",
+      "weekday": "Thu"
     },
     {
       "date": "2026-08-07",
