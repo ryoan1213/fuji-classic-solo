@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15 08:08 JST",
+  "generatedAt": "2026-07-15 11:42 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
@@ -180,7 +180,7 @@
       "maxSeats": 4,
       "overseasPrice": 36500,
       "surcharge2p": 1100,
-      "players": 1,
+      "players": 2,
       "ours": false,
       "id": "T147566691",
       "weekday": "Wed"
@@ -508,20 +508,6 @@
       "weekday": "Wed"
     },
     {
-      "date": "2026-08-05",
-      "deadline": "08/04 16:00",
-      "io": "OUT",
-      "time": "08:56",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 37500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T140376286",
-      "weekday": "Wed"
-    },
-    {
       "date": "2026-08-06",
       "deadline": "08/05 13:00",
       "io": "OUT",
@@ -679,20 +665,6 @@
       "date": "2026-08-12",
       "deadline": "08/11 16:00",
       "io": "IN",
-      "time": "08:29",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 43000,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T140377131",
-      "weekday": "Wed"
-    },
-    {
-      "date": "2026-08-12",
-      "deadline": "08/11 16:00",
-      "io": "IN",
       "time": "08:38",
       "minPlayers": 2,
       "maxSeats": 4,
@@ -802,20 +774,6 @@
       "weekday": "Mon"
     },
     {
-      "date": "2026-08-17",
-      "deadline": "08/16 16:00",
-      "io": "OUT",
-      "time": "08:47",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 37500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T140377588",
-      "weekday": "Mon"
-    },
-    {
       "date": "2026-08-18",
       "deadline": "08/17 16:00",
       "io": "IN",
@@ -866,7 +824,7 @@
       "maxSeats": 4,
       "overseasPrice": 37500,
       "surcharge2p": 1100,
-      "players": 3,
+      "players": 2,
       "ours": false,
       "id": "T145186988",
       "weekday": "Fri"
