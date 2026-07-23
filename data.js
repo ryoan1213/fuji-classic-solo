@@ -1,5 +1,5 @@
 window.FC_SLOTS = {
-  "generatedAt": "2026-07-23 11:58 JST",
+  "generatedAt": "2026-07-23 15:08 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
@@ -74,6 +74,34 @@ window.FC_SLOTS = {
       "weekday": "Sat"
     },
     {
+      "date": "2026-07-26",
+      "deadline": "07/25 16:00",
+      "io": "IN",
+      "time": "08:20",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": 45000,
+      "surcharge2p": 1100,
+      "players": 0,
+      "ours": false,
+      "id": "T138097064",
+      "weekday": "Sun"
+    },
+    {
+      "date": "2026-07-26",
+      "deadline": "07/25 16:00",
+      "io": "IN",
+      "time": "09:05",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": 45000,
+      "surcharge2p": 1100,
+      "players": 0,
+      "ours": false,
+      "id": "T138097068",
+      "weekday": "Sun"
+    },
+    {
       "date": "2026-07-28",
       "deadline": "07/27 16:00",
       "io": "IN",
@@ -102,6 +130,20 @@ window.FC_SLOTS = {
       "weekday": "Tue"
     },
     {
+      "date": "2026-07-28",
+      "deadline": "07/27 16:00",
+      "io": "OUT",
+      "time": "09:32",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": 36500,
+      "surcharge2p": 1100,
+      "players": 0,
+      "ours": false,
+      "id": "T138097759",
+      "weekday": "Tue"
+    },
+    {
       "date": "2026-07-30",
       "deadline": "07/29 16:00",
       "io": "IN",
@@ -113,6 +155,20 @@ window.FC_SLOTS = {
       "players": 4,
       "ours": false,
       "id": "T138099602",
+      "weekday": "Thu"
+    },
+    {
+      "date": "2026-07-30",
+      "deadline": "07/29 16:00",
+      "io": "IN",
+      "time": "09:14",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": 36500,
+      "surcharge2p": 1100,
+      "players": 0,
+      "ours": false,
+      "id": "T147566998",
       "weekday": "Thu"
     },
     {
@@ -132,6 +188,20 @@ window.FC_SLOTS = {
     {
       "date": "2026-07-31",
       "deadline": "07/30 16:00",
+      "io": "OUT",
+      "time": "09:14",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": 36500,
+      "surcharge2p": 1100,
+      "players": 0,
+      "ours": false,
+      "id": "T138099619",
+      "weekday": "Fri"
+    },
+    {
+      "date": "2026-07-31",
+      "deadline": "07/30 16:00",
       "io": "IN",
       "time": "09:23",
       "minPlayers": 2,
@@ -146,15 +216,29 @@ window.FC_SLOTS = {
     {
       "date": "2026-08-01",
       "deadline": "07/31 16:00",
-      "io": "OUT",
-      "time": "08:02",
+      "io": "IN",
+      "time": "08:38",
       "minPlayers": 2,
       "maxSeats": 4,
       "overseasPrice": 45000,
       "surcharge2p": 1100,
       "players": 0,
       "ours": false,
-      "id": "T147216032",
+      "id": "T145184561",
+      "weekday": "Sat"
+    },
+    {
+      "date": "2026-08-01",
+      "deadline": "07/31 16:00",
+      "io": "IN",
+      "time": "08:56",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": 45000,
+      "surcharge2p": 1100,
+      "players": 0,
+      "ours": false,
+      "id": "T140375749",
       "weekday": "Sat"
     },
     {
@@ -212,20 +296,6 @@ window.FC_SLOTS = {
       "ours": false,
       "id": "T140375989",
       "weekday": "Mon"
-    },
-    {
-      "date": "2026-08-04",
-      "deadline": "08/03 16:00",
-      "io": "IN",
-      "time": "08:29",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 37500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T140376268",
-      "weekday": "Tue"
     },
     {
       "date": "2026-08-05",
@@ -295,20 +365,6 @@ window.FC_SLOTS = {
       "players": 3,
       "ours": false,
       "id": "T140376408",
-      "weekday": "Fri"
-    },
-    {
-      "date": "2026-08-07",
-      "deadline": "08/06 16:00",
-      "io": "OUT",
-      "time": "09:05",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 37500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T140376410",
       "weekday": "Fri"
     },
     {
@@ -1096,6 +1152,76 @@ window.FC_SLOTS = {
       "weekday": "Wed"
     },
     {
+      "date": "2026-09-10",
+      "deadline": "09/09 16:00",
+      "io": "OUT",
+      "time": "09:05",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": null,
+      "surcharge2p": null,
+      "players": 2,
+      "ours": false,
+      "id": "T148204930",
+      "weekday": "Thu"
+    },
+    {
+      "date": "2026-09-10",
+      "deadline": "09/09 16:00",
+      "io": "OUT",
+      "time": "09:23",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": null,
+      "surcharge2p": null,
+      "players": 0,
+      "ours": false,
+      "id": "T148204779",
+      "weekday": "Thu"
+    },
+    {
+      "date": "2026-09-10",
+      "deadline": "09/09 16:00",
+      "io": "OUT",
+      "time": "09:32",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": null,
+      "surcharge2p": null,
+      "players": 0,
+      "ours": false,
+      "id": "T148204780",
+      "weekday": "Thu"
+    },
+    {
+      "date": "2026-09-10",
+      "deadline": "09/09 16:00",
+      "io": "OUT",
+      "time": "09:41",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": null,
+      "surcharge2p": null,
+      "players": 0,
+      "ours": false,
+      "id": "T148204781",
+      "weekday": "Thu"
+    },
+    {
+      "date": "2026-09-10",
+      "deadline": "09/09 16:00",
+      "io": "OUT",
+      "time": "09:50",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": null,
+      "surcharge2p": null,
+      "players": 0,
+      "ours": false,
+      "id": "T148204782",
+      "weekday": "Thu"
+    },
+    {
       "date": "2026-09-11",
       "deadline": "09/10 16:00",
       "io": "IN",
@@ -1387,20 +1513,6 @@ window.FC_SLOTS = {
       "players": 0,
       "ours": false,
       "id": "T142069934",
-      "weekday": "Mon"
-    },
-    {
-      "date": "2026-09-21",
-      "deadline": "09/20 16:00",
-      "io": "OUT",
-      "time": "09:23",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 45000,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T147867920",
       "weekday": "Mon"
     },
     {
