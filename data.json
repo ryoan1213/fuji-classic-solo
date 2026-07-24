@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24 13:18 JST",
+  "generatedAt": "2026-07-24 16:35 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
@@ -214,48 +214,6 @@
       "weekday": "Wed"
     },
     {
-      "date": "2026-08-06",
-      "deadline": "08/05 13:00",
-      "io": "OUT",
-      "time": "07:48",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": null,
-      "surcharge2p": null,
-      "players": 0,
-      "ours": false,
-      "id": "T147917597",
-      "weekday": "Thu"
-    },
-    {
-      "date": "2026-08-06",
-      "deadline": "08/05 13:00",
-      "io": "OUT",
-      "time": "07:57",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": null,
-      "surcharge2p": null,
-      "players": 0,
-      "ours": false,
-      "id": "T147917598",
-      "weekday": "Thu"
-    },
-    {
-      "date": "2026-08-06",
-      "deadline": "08/05 13:00",
-      "io": "OUT",
-      "time": "08:06",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": null,
-      "surcharge2p": null,
-      "players": 0,
-      "ours": false,
-      "id": "T147917599",
-      "weekday": "Thu"
-    },
-    {
       "date": "2026-08-07",
       "deadline": "08/06 16:00",
       "io": "OUT",
@@ -390,7 +348,7 @@
       "maxSeats": 4,
       "overseasPrice": 43000,
       "surcharge2p": 1100,
-      "players": 2,
+      "players": 1,
       "ours": false,
       "id": "T140377132",
       "weekday": "Wed"
@@ -718,20 +676,6 @@
       "weekday": "Fri"
     },
     {
-      "date": "2026-08-29",
-      "deadline": "08/28 16:00",
-      "io": "IN",
-      "time": "08:02",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 45000,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T140378740",
-      "weekday": "Sat"
-    },
-    {
       "date": "2026-08-30",
       "deadline": "08/29 16:00",
       "io": "IN",
@@ -810,7 +754,7 @@
       "maxSeats": 4,
       "overseasPrice": 36500,
       "surcharge2p": 1100,
-      "players": 0,
+      "players": 1,
       "ours": false,
       "id": "T142062962",
       "weekday": "Tue"
@@ -950,7 +894,7 @@
       "maxSeats": 4,
       "overseasPrice": 36500,
       "surcharge2p": 1100,
-      "players": 1,
+      "players": 2,
       "ours": false,
       "id": "T142067590",
       "weekday": "Mon"
@@ -1146,7 +1090,7 @@
       "maxSeats": 4,
       "overseasPrice": 36500,
       "surcharge2p": 1100,
-      "players": 0,
+      "players": 1,
       "ours": false,
       "id": "T142068907",
       "weekday": "Mon"
