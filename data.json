@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17 13:46 JST",
+  "generatedAt": "2026-08-17 14:38 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
@@ -2046,34 +2046,6 @@
       "ours": false,
       "id": "T144037072",
       "weekday": "Fri"
-    },
-    {
-      "date": "2026-10-31",
-      "deadline": "10/30 16:00",
-      "io": "IN",
-      "time": "08:29",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 43000,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T144037218",
-      "weekday": "Sat"
-    },
-    {
-      "date": "2026-10-31",
-      "deadline": "10/30 16:00",
-      "io": "IN",
-      "time": "08:38",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 43000,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T144037219",
-      "weekday": "Sat"
     },
     {
       "date": "2026-10-31",
