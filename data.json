@@ -1,22 +1,8 @@
 {
-  "generatedAt": "2026-08-31 10:12 JST",
+  "generatedAt": "2026-08-31 17:19 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
-    {
-      "date": "2026-09-01",
-      "deadline": "08/31 16:00",
-      "io": "IN",
-      "time": "08:29",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 36500,
-      "surcharge2p": 1100,
-      "players": 3,
-      "ours": false,
-      "id": "T142062962",
-      "weekday": "Tue"
-    },
     {
       "date": "2026-09-02",
       "deadline": "09/01 16:00",
@@ -40,7 +26,7 @@
       "maxSeats": 4,
       "overseasPrice": 36500,
       "surcharge2p": 1100,
-      "players": 2,
+      "players": 1,
       "ours": false,
       "id": "T147790126",
       "weekday": "Thu"
@@ -54,7 +40,7 @@
       "maxSeats": 4,
       "overseasPrice": 36500,
       "surcharge2p": 1100,
-      "players": 4,
+      "players": 3,
       "ours": false,
       "id": "T147867773",
       "weekday": "Fri"
@@ -222,7 +208,7 @@
       "maxSeats": 4,
       "overseasPrice": 36500,
       "surcharge2p": 1100,
-      "players": 1,
+      "players": 0,
       "ours": false,
       "id": "T142068907",
       "weekday": "Mon"
@@ -264,7 +250,7 @@
       "maxSeats": 4,
       "overseasPrice": 36500,
       "surcharge2p": 1100,
-      "players": 2,
+      "players": 3,
       "ours": false,
       "id": "T142069225",
       "weekday": "Wed"
@@ -404,7 +390,7 @@
       "maxSeats": 4,
       "overseasPrice": 45000,
       "surcharge2p": 1100,
-      "players": 2,
+      "players": 1,
       "ours": false,
       "id": "T142070412",
       "weekday": "Tue"
@@ -1276,34 +1262,6 @@
       "ours": false,
       "id": "T144036380",
       "weekday": "Tue"
-    },
-    {
-      "date": "2026-10-21",
-      "deadline": "10/20 16:00",
-      "io": "IN",
-      "time": "08:29",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 35500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T144036542",
-      "weekday": "Wed"
-    },
-    {
-      "date": "2026-10-21",
-      "deadline": "10/20 16:00",
-      "io": "IN",
-      "time": "08:38",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 35500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T144036543",
-      "weekday": "Wed"
     },
     {
       "date": "2026-10-22",
