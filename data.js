@@ -1,5 +1,5 @@
 window.FC_SLOTS = {
-  "generatedAt": "2026-09-06 09:43 JST",
+  "generatedAt": "2026-09-06 14:40 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
@@ -96,7 +96,7 @@ window.FC_SLOTS = {
       "maxSeats": 4,
       "overseasPrice": null,
       "surcharge2p": null,
-      "players": 4,
+      "players": 3,
       "ours": false,
       "id": "T148204782",
       "weekday": "Thu"
@@ -690,20 +690,6 @@ window.FC_SLOTS = {
       "weekday": "Tue"
     },
     {
-      "date": "2026-10-06",
-      "deadline": "10/05 16:00",
-      "io": "IN",
-      "time": "09:05",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 35500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T144034227",
-      "weekday": "Tue"
-    },
-    {
       "date": "2026-10-07",
       "deadline": "10/06 16:00",
       "io": "IN",
@@ -754,7 +740,7 @@ window.FC_SLOTS = {
       "maxSeats": 4,
       "overseasPrice": 35500,
       "surcharge2p": 1100,
-      "players": 0,
+      "players": 1,
       "ours": false,
       "id": "T149274823",
       "weekday": "Thu"
@@ -1068,20 +1054,6 @@ window.FC_SLOTS = {
       "weekday": "Sun"
     },
     {
-      "date": "2026-10-19",
-      "deadline": "10/18 16:00",
-      "io": "IN",
-      "time": "08:29",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 35500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T144036356",
-      "weekday": "Mon"
-    },
-    {
       "date": "2026-10-20",
       "deadline": "10/19 16:00",
       "io": "IN",
@@ -1206,20 +1178,6 @@ window.FC_SLOTS = {
       "ours": false,
       "id": "T144036861",
       "weekday": "Mon"
-    },
-    {
-      "date": "2026-10-27",
-      "deadline": "10/26 16:00",
-      "io": "OUT",
-      "time": "08:38",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 35500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T144036875",
-      "weekday": "Tue"
     },
     {
       "date": "2026-10-27",
