@@ -1,22 +1,8 @@
 {
-  "generatedAt": "2026-09-19 13:26 JST",
+  "generatedAt": "2026-09-19 18:16 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
-    {
-      "date": "2026-09-20",
-      "deadline": "09/19 16:00",
-      "io": "IN",
-      "time": "08:20",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 45000,
-      "surcharge2p": 1100,
-      "players": 1,
-      "ours": false,
-      "id": "T142069918",
-      "weekday": "Sun"
-    },
     {
       "date": "2026-09-22",
       "deadline": "09/21 16:00",
@@ -29,6 +15,20 @@
       "players": 0,
       "ours": false,
       "id": "T142070410",
+      "weekday": "Tue"
+    },
+    {
+      "date": "2026-09-22",
+      "deadline": "09/21 16:00",
+      "io": "OUT",
+      "time": "09:05",
+      "minPlayers": 2,
+      "maxSeats": 4,
+      "overseasPrice": 45000,
+      "surcharge2p": 1100,
+      "players": 1,
+      "ours": false,
+      "id": "T151120225",
       "weekday": "Tue"
     },
     {
@@ -390,7 +390,7 @@
       "maxSeats": 4,
       "overseasPrice": 35500,
       "surcharge2p": 1100,
-      "players": 1,
+      "players": 2,
       "ours": false,
       "id": "T144258442",
       "weekday": "Tue"
@@ -684,7 +684,7 @@
       "maxSeats": 4,
       "overseasPrice": 35500,
       "surcharge2p": 1100,
-      "players": 0,
+      "players": 1,
       "ours": false,
       "id": "T144036066",
       "weekday": "Thu"
@@ -740,7 +740,7 @@
       "maxSeats": 4,
       "overseasPrice": 43000,
       "surcharge2p": 1100,
-      "players": 0,
+      "players": 1,
       "ours": false,
       "id": "T144036148",
       "weekday": "Sat"
@@ -1163,20 +1163,6 @@
       "players": 0,
       "ours": false,
       "id": "T145792699",
-      "weekday": "Mon"
-    },
-    {
-      "date": "2026-11-09",
-      "deadline": "11/08 16:00",
-      "io": "IN",
-      "time": "08:56",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 35500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T145792702",
       "weekday": "Mon"
     },
     {
