@@ -1,5 +1,5 @@
 window.FC_SLOTS = {
-  "generatedAt": "2026-10-10 05:39 JST",
+  "generatedAt": "2026-10-10 09:34 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
@@ -152,7 +152,7 @@ window.FC_SLOTS = {
       "maxSeats": 4,
       "overseasPrice": null,
       "surcharge2p": null,
-      "players": 3,
+      "players": 4,
       "ours": false,
       "id": "T149438905",
       "weekday": "Wed"
