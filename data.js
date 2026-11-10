@@ -1,36 +1,8 @@
 window.FC_SLOTS = {
-  "generatedAt": "2026-11-10 09:00 JST",
+  "generatedAt": "2026-11-10 16:04 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
-    {
-      "date": "2026-11-11",
-      "deadline": "11/10 16:00",
-      "io": "IN",
-      "time": "08:29",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 35500,
-      "surcharge2p": 1100,
-      "players": 2,
-      "ours": false,
-      "id": "T145792950",
-      "weekday": "Wed"
-    },
-    {
-      "date": "2026-11-11",
-      "deadline": "11/10 16:00",
-      "io": "IN",
-      "time": "09:14",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 35500,
-      "surcharge2p": 1100,
-      "players": 1,
-      "ours": false,
-      "id": "T145792953",
-      "weekday": "Wed"
-    },
     {
       "date": "2026-11-12",
       "deadline": "11/11 16:00",
@@ -128,20 +100,6 @@ window.FC_SLOTS = {
       "ours": false,
       "id": "T152387298",
       "weekday": "Tue"
-    },
-    {
-      "date": "2026-11-19",
-      "deadline": "11/18 16:00",
-      "io": "IN",
-      "time": "08:20",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 35500,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T145796904",
-      "weekday": "Thu"
     },
     {
       "date": "2026-11-20",
@@ -396,20 +354,6 @@ window.FC_SLOTS = {
       "weekday": "Thu"
     },
     {
-      "date": "2026-12-04",
-      "deadline": "12/03 16:00",
-      "io": "IN",
-      "time": "08:18",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 30300,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T150910727",
-      "weekday": "Fri"
-    },
-    {
       "date": "2026-12-05",
       "deadline": "12/04 16:00",
       "io": "OUT",
@@ -572,7 +516,7 @@ window.FC_SLOTS = {
       "maxSeats": 4,
       "overseasPrice": 35500,
       "surcharge2p": 1100,
-      "players": 0,
+      "players": 1,
       "ours": false,
       "id": "T150913650",
       "weekday": "Sun"
