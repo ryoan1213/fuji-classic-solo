@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27 00:17 JST",
+  "generatedAt": "2026-11-27 07:52 JST",
   "course": "Fuji Classic",
   "priceNote": "Overseas-golfer rate, lunch included.",
   "slots": [
@@ -124,7 +124,7 @@
       "maxSeats": 4,
       "overseasPrice": 30300,
       "surcharge2p": 1100,
-      "players": 1,
+      "players": 0,
       "ours": false,
       "id": "T150910679",
       "weekday": "Thu"
@@ -284,20 +284,6 @@
       "weekday": "Sun"
     },
     {
-      "date": "2026-12-14",
-      "deadline": "12/13 16:00",
-      "io": "OUT",
-      "time": "08:52",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 30300,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T150913676",
-      "weekday": "Mon"
-    },
-    {
       "date": "2026-12-17",
       "deadline": "12/16 16:00",
       "io": "IN",
@@ -309,34 +295,6 @@
       "players": 0,
       "ours": false,
       "id": "T150913820",
-      "weekday": "Thu"
-    },
-    {
-      "date": "2026-12-17",
-      "deadline": "12/16 16:00",
-      "io": "OUT",
-      "time": "08:43",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 30300,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T150913810",
-      "weekday": "Thu"
-    },
-    {
-      "date": "2026-12-17",
-      "deadline": "12/16 16:00",
-      "io": "OUT",
-      "time": "08:52",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 30300,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T150913811",
       "weekday": "Thu"
     },
     {
@@ -410,20 +368,6 @@
       "weekday": "Sun"
     },
     {
-      "date": "2026-12-21",
-      "deadline": "12/20 16:00",
-      "io": "OUT",
-      "time": "08:43",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 30300,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T150915841",
-      "weekday": "Mon"
-    },
-    {
       "date": "2026-12-23",
       "deadline": "12/22 16:00",
       "io": "OUT",
@@ -432,7 +376,7 @@
       "maxSeats": 4,
       "overseasPrice": 30300,
       "surcharge2p": 1100,
-      "players": 0,
+      "players": 1,
       "ours": false,
       "id": "T150916081",
       "weekday": "Wed"
@@ -449,20 +393,6 @@
       "players": 0,
       "ours": false,
       "id": "T150916107",
-      "weekday": "Thu"
-    },
-    {
-      "date": "2026-12-24",
-      "deadline": "12/23 16:00",
-      "io": "OUT",
-      "time": "08:52",
-      "minPlayers": 2,
-      "maxSeats": 4,
-      "overseasPrice": 30300,
-      "surcharge2p": 1100,
-      "players": 0,
-      "ours": false,
-      "id": "T150916108",
       "weekday": "Thu"
     },
     {
